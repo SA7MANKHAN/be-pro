@@ -9,33 +9,468 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo-light.svg" alt="">
+            </a>
+            <ul class="nav-items">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#services" class="nav-item">Services</a></li>
+                <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                <li><a href="#team" class="nav-item">Team</a></li>
+                <li><a href="#blog" class="nav-item">Blog</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="nav-toggler"><i class="ri-menu-fill"></i></div>
+        </div>
+    </nav>
+
     <!-- HERO -->
+    <div class="owl-carousel owl-theme hero-slider">
+        <div class="slide">
+            <div class="container">
+                <h1 class="h1">Design Stunning Websites</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem repudiandae eligendi eum voluptate voluptates necessitatibus magni adipisci placeat!</p>
+                <a href="#" class="btn">Get Started</a>
+                <a href="#" class="btn btn-outline-light">Contact Us</a>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="container">
+                <h1 class="h1">Design Stunning Websites</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem repudiandae eligendi eum voluptate voluptates necessitatibus magni adipisci placeat!</p>
+                <a href="#" class="btn">Get Started</a>
+                <a href="#" class="btn btn-outline-light">Contact Us</a>
+            </div>
+        </div>
+    </div>
 
     <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="two-col-grid">
+                <img src="./assets/images/working.jpg" alt="">
+                <div class="content">
+                    <h2 class="h2">We craft digital experiances for brands</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p>Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    <a href="#" class="btn">Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Our Services</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="three-col-grid">
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-pen-nib-fill"></i>
+                    </div>
+                    <h3 class="h4">Typography</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-bear-smile-fill"></i>
+                    </div>
+                    <h3 class="h4">Another Service</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-user-2-fill"></i>
+                    </div>
+                    <h3 class="h4">Another Service</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-ancient-gate-line"></i>
+                    </div>
+                    <h3 class="h4">Another Service</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-anchor-line"></i>
+                    </div>
+                    <h3 class="h4">Another Service</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="service hover-effect ">
+                    <div class="icon-box">
+                        <i class="ri-admin-fill"></i>
+                    </div>
+                    <h3 class="h4">Another Service</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Our Portfolio</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+        </div>
+        <div class="portfolio-slider owl-carousel owl-theme container">
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-1.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-2.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-3.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-4.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-5.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./assets/images/portfolio-6.jpg" alt="">
+                <div class="overlay">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Design</p>
+                    <a href="#" class="portfolio-btn">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- TEAM -->
+    <section id="team">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Our Team</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="four-col-grid">
+                <div class="team-member hover-effect">
+                    <img src="./assets/images/team-img-1.jpg" alt="">
+                    <div class="content">
+                        <h4 class="h5">Wade Warren</h4>
+                        <p>Scrum Masterr</p>
+                    </div>
+                </div>
+                <div class="team-member hover-effect">
+                    <img src="./assets/images/team-img-2.jpg" alt="">
+                    <div class="content">
+                        <h4 class="h5">Wade Warren</h4>
+                        <p>Scrum Masterr</p>
+                    </div>
+                </div>
+                <div class="team-member hover-effect">
+                    <img src="./assets/images/team-img-3.jpg" alt="">
+                    <div class="content">
+                        <h4 class="h5">Wade Warren</h4>
+                        <p>Scrum Masterr</p>
+                    </div>
+                </div>
+                <div class="team-member hover-effect">
+                    <img src="./assets/images/team-img-4.jpg" alt="">
+                    <div class="content">
+                        <h4 class="h5">Wade Warren</h4>
+                        <p>Scrum Masterr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- REVIEWS -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Customers Saying</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+        </div>
+        <div class="reviews-slider owl-carousel owl-theme container">
+            <div class="review hover-effect">
+                <i class="ri-double-quotes-l quote"></i>
+                <div>
+                    <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </span>
+                    <span> 5.4 (Reviews)</span>
+                </div>
+                <p class="saying">Voluptate iste debitis labore cumque ducimus dolorem laborum quasi architecto, sapiente ex voluptatibus! Cupiditate sed quam accusamus, ut vero quidem expedita aut reprehenderit assumenda!</p>
+                <div class="person">
+                    <img src="./assets/images/team-img-1.jpg" alt="">
+                    <div>
+                        <h5 class="h5">Jon Doe Khan</h5>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review hover-effect">
+                <i class="ri-double-quotes-l quote"></i>
+                <div>
+                    <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </span>
+                    <span> 5.4 (Reviews)</span>
+                </div>
+                <p class="saying">Voluptate iste debitis labore cumque ducimus dolorem laborum quasi architecto, sapiente ex voluptatibus! Cupiditate sed quam accusamus, ut vero quidem expedita aut reprehenderit assumenda!</p>
+                <div class="person">
+                    <img src="./assets/images/team-img-2.jpg" alt="">
+                    <div>
+                        <h5 class="h5">Jon Doe Khan</h5>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review hover-effect">
+                <i class="ri-double-quotes-l quote"></i>
+                <div>
+                    <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </span>
+                    <span> 5.4 (Reviews)</span>
+                </div>
+                <p class="saying">Voluptate iste debitis labore cumque ducimus dolorem laborum quasi architecto, sapiente ex voluptatibus! Cupiditate sed quam accusamus, ut vero quidem expedita aut reprehenderit assumenda!</p>
+                <div class="person">
+                    <img src="./assets/images/team-img-3.jpg" alt="">
+                    <div>
+                        <h5 class="h5">Jon Doe Khan</h5>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review hover-effect">
+                <i class="ri-double-quotes-l quote"></i>
+                <div>
+                    <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </span>
+                    <span> 5.4 (Reviews)</span>
+                </div>
+                <p class="saying">Voluptate iste debitis labore cumque ducimus dolorem laborum quasi architecto, sapiente ex voluptatibus! Cupiditate sed quam accusamus, ut vero quidem expedita aut reprehenderit assumenda!</p>
+                <div class="person">
+                    <img src="./assets/images/team-img-4.jpg" alt="">
+                    <div>
+                        <h5 class="h5">Jon Doe Khan</h5>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- BLOG -->
+    <section id="blog">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Our Blog</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="three-col-grid">
+                <div class="blog-post hover-effect">
+                    <img src="./assets/images/b1.jpg" alt="">
+                    <div class="content">
+                        <h3 class="h5"><a href="#">Caring is the new marketing</a></h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of</p>
+                        <a href="#" class="btn">Read more <i class="ri-arrow-right-fill"></i></a>
+                    </div>
+                </div>
+                <div class="blog-post hover-effect">
+                    <img src="./assets/images/b2.jpg" alt="">
+                    <div class="content">
+                        <h3 class="h5"><a href="#">Caring is the new marketing</a></h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of</p>
+                        <a href="#" class="btn">Read more <i class="ri-arrow-right-fill"></i></a>
+                    </div>
+                </div>
+                <div class="blog-post hover-effect">
+                    <img src="./assets/images/b3.jpg" alt="">
+                    <div class="content">
+                        <h3 class="h5"><a href="#">Caring is the new marketing</a></h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of</p>
+                        <a href="#" class="btn">Read more <i class="ri-arrow-right-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- CONTACT -->
+    <section id="contant">
+        <div class="container">
+            <div class="intro-text">
+                <h1 class="h2">Gete in touch</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="three-col-grid">
+                <div class="contact-info hover-effect">
+                    <div class="icon-box">
+                        <i class="ri-phone-fill"></i>
+                    </div>
+                    <h6 class="h5">Call us:</h6>
+                    <span>(+44) 123 456 789</span><br/>
+                    <span>(+44) 123 456 789</span>
+                </div>
+                <div class="contact-info hover-effect">
+                    <div class="icon-box">
+                        <i class="ri-map-fill"></i>
+                    </div>
+                    <h6 class="h5">Location:</h6>
+                    <span>202 Mainstreet, 12th <br/>Floor New
+                        York, NY 10013.</span>
+                </div>
+                <div class="contact-info hover-effect">
+                    <div class="icon-box">
+                        <i class="ri-mail-fill"></i>
+                    </div>
+                    <h6 class="h5">Mail us:</h6>
+                    <span>info@yourdomain.com</span><br/>
+                    <span>hr@yourdomain.com</span>
+                </div>
+            </div>
+            <form action="#" class="form hover-effect">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Your E-mail address">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" placeholder="Enter Your Subject">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Message</label>
+                    <textarea class="form-control" placeholder="Enter Your Message" rows="10"></textarea>
+                </div>
+                <button class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
     <!-- MAP -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d72539.09997062042!2d-3.5060127521450695!3d55.37812851808586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!3m2!1d55.378051!2d-3.4359729999999997!4m5!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!3m2!1d55.378051!2d-3.4359729999999997!5e0!3m2!1sen!2s!4v1646763290252!5m2!1sen!2s" class="google-map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
     <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="four-col-grid">
+                    <div class="footer-widget">
+                        <img src="./assets/images/logo-light.svg" alt="" class="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis vel ut voluptatibus cumque, eum itaque?</p>
+                    </div>
+                    <div class="footer-widget">
+                        <h5 class="h4">Company</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Work</a></li>
+                            <li><a href="#">FAQ'S</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h5 class="h4">Services</h5>
+                        <ul>
+                            <li><a href="#">UI Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Color Theroy</a></li>
+                            <li><a href="#">FAQ'S</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h5 class="h4">Company</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Work</a></li>
+                            <li><a href="#">FAQ'S</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2022 BePro is Designed by SA7MAN</p>
+        </div>
+    </footer>
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
